@@ -11,3 +11,5 @@ Subsequently, the model was trained, for which a dataset from https://opus.nlpl.
 
 In the decoding and sampling steps, functions were programmed to perform random sampling. With the generated samples, minimum Risk Bayes was implemented, in which each sample was compared with the other using the ROUGE score, in such a way that the sample with the highest ROUGE average is selected.
 At the end of the notebook some examples of inference with the model are carried out using temperature = 0 (greedy decoding) and temperature = 0.6.
+
+![Captura](https://user-images.githubusercontent.com/76975149/154715798-d3579618-79a8-401c-8d26-252fb49521b4.PNG)
