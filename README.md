@@ -6,7 +6,7 @@ The architecture is an LSTM network encoder decoder in which the attention mecha
 This type of models, called seq2seq with attention, replaced the traditional Seq2Seq models, to avoid the loss of quality and fading of the information when trying to send all the information of variable length sequences in a fixed length memory context vector from the encoder to the decoder.
 </p>
  
- Program the architecture of the model following the structure in the diagram below:
+ I programed the architecture of the model following the structure in the diagram below:
  ![NTM -LSTM with attention drawio](https://user-images.githubusercontent.com/76975149/154712773-aedeaa74-a77a-46d2-9a18-1f3eb299db41.png)
 
 <p style='text-align: justify;'>
